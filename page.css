@@ -1,0 +1,275 @@
+body{
+    color: black;
+    font-family: "Segoe UI";
+    margin: 0px auto;
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+}
+/*Navigation*/
+.nav {
+    width: 100%;
+    background: #f7f7f7;
+    box-shadow: 0px 0px 5px rgba(100,100,100,0.5);
+    height: 85px;
+    padding: 5px 0px 5px 0px;
+}
+
+.logo {
+    width: 5em;
+    height: 5em;
+    padding-left: 1em;
+    float: left;
+    transition: 2s;
+}
+
+.nav_container {
+    float: right; 
+    margin: 2%;
+}
+
+.nav_container a {
+    text-align: center;
+    padding: 20px 50px;
+    text-decoration: none;
+    color: black;
+}
+
+.nav a:hover {
+    background-color: #e6e6f7;
+    border: solid 0.1px black;
+    border-radius: 5px;
+}.nav a:focus {
+    border: solid 2px black;
+}
+/*Top Bilde*/
+
+header{
+    height: auto;
+    max-width: 100%;
+    background-color: white;
+    margin: 0px;
+}
+#intro_bilde{
+    background: url(media/last_day.jpeg) no-repeat center center/cover  ;
+    height: 45em;
+}
+#intro_bilde .intro_content{
+    color: white;
+    text-align: center;
+    padding-top: 10rem; 
+}
+#intro_bilde .intro_content h1{
+    font-size: 50px;
+}
+
+#intro_bilde .intro_content p{
+    font-size: 30px;
+    margin-top: -20px;
+}
+/*knapp*/
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    border-radius: 9px;
+    background: #f7f7f7;
+    padding: 15px 25px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #e6e6f9;
+    color: #333;
+}
+/*Option under top bilde*/
+#option_container{
+    background: #f7f7f7;
+    box-shadow: 0px 0px 5px rgba(100,100,100,0.5);
+    padding: 2.1875rem;
+}
+
+.option-input {
+    font-size: 1.5em;
+    width: 20em;
+    background: #FDFDFD;
+    box-shadow: 0px 0px 5px rgba(100,100,100,0.5);
+    padding: 10px;
+}
+option {
+    background-color: #f7f7f7;
+    box-shadow: 0px 0px 5px rgba(100,100,100,0.5);
+    color: black;
+}
+
+/*Under Option, nyheter*/
+.info_container {
+    height: 18em;
+    display: flex;
+    flex-direction: row;
+}
+.announcements-box{
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-color: #FFF4EB;
+    padding: 1em;
+}
+.news-box {
+    width: 50%;
+    height: 100%;
+    float: right;
+    background-color: #EBF9FF;
+    padding: 1em;
+}
+
+.boxh2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+.box_innhold{
+    text-align: left;
+    padding-left: 2em;
+}
+.box_innhold h3{
+    font-size: 20px;
+    padding-left: 2em;
+}
+.box_innhold p{
+    padding-left: 2em;
+    font-size: 18px;
+}
+.box_innhold p a{
+    color: blue;
+}
+
+/*flere boxer 3 rader*/
+
+.study_catagori {
+    text-align: center;
+    height: auto;
+    width: 100%;
+}
+.catagori_header{
+    height: auto;
+}
+.catagori_header h2 {
+    font-size: 70px;
+    font-family: alternate-gothic-no-3-d, sans-serif;
+    font-weight: bold;
+    color: #423a37;
+}
+.catagori_header p {
+    font-size: 40px;
+    font-family:monospace;
+    margin-top: -70px;
+}
+
+.degrees {
+    width: 100%;
+    display: flex;
+    flex-direction:row;
+    height: auto;
+    box-shadow: 0px 2px 4px rgba(100,100,100,0.5);
+}
+
+.light{
+    width: 50%;
+    background-color:white;
+    height: 100%;
+}
+.dark{
+    width: 50%;
+    background-color:#FBFBFB;
+    height: 100%;
+}
+.about_degrees a {
+    color: darkred;
+    font-size: 20px;
+    line-height: 3em;
+}
+
+.about_degrees h2 {
+    font-size: 26px;
+    font-weight: bold;
+}
+/*Slutt info*/
+
+.videotxt_container {
+    height: 35em;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.loopVideo{
+    width: 60%;
+    height: 100%;
+    float: left;
+    background-color: #EBF9FF;
+}
+.video_txt {
+    width: 40%;
+    height: 100%;
+    float: right;
+    background-color: #EBF9FF;
+}
+
+video{
+    height: 100%;
+    width: 100%;
+}
+
+.video_txt_container{
+    padding: 3em;
+    margin-top: 10%;
+}
+.video_txt h2{
+    font-size: 60px;
+    font-family: alternate-gothic-no-3-d, sans-serif;
+    font-weight: bold;
+    color: #423a37;
+}
+.video_txt p {
+    font-size: 30px;
+    font-family:monospace;
+}
+
+/*footer*/
+
+footer{
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+.footer_logo{
+    height: 10vw;
+}
+
+.top_footer{
+    background-color: rgb(0, 0, 0);
+    padding: 10px 0;
+}
+
+.under_footer{
+    background-color: #262626;
+    padding: 2vh 0;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 3vw ;
+    font-size: 30px;   
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+i{
+    color: white;
+}
+
+
